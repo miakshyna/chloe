@@ -1,0 +1,185 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(assets/header-background.png);
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+header a {
+  text-decoration: none;
+}
+header .row-header {
+  background-image: url(assets/header-1.png);
+}
+header ul.header-menu {
+  margin: 0;
+  padding: 15px;
+}
+header ul.header-menu li {
+  display: inline;
+  margin-right: 38px;
+  padding: 10px;
+  font-size: 16px;
+}
+header .introduction {
+  background-color: #eee5eb;
+  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header .chloe-sanre {
+  margin-top: -180px;
+  margin-left: -190px;
+}
+header-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+header-1 a {
+  text-decoration: none;
+}
+header-1 .row-header {
+  background-image: url(assets/check-in-header.png);
+}
+header-1 ul.header-menu {
+  margin: 0;
+  /* Обнуляем значение отступов */
+  padding: 15px;
+  /* Значение полей */
+}
+header-1 ul.header-menu li {
+  display: inline;
+  /* Отображать как строчный элемент */
+  margin-right: 38px;
+  /* Отступ слева */
+  padding: 10px;
+  /* Поля вокруг текста */
+  font-size: 16px;
+  color: white;
+}
+.explore {
+  width: 70%;
+}
+.search {
+  margin-left: -40px;
+  margin-top: 28px;
+}
+.form-control {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.interests .interests-icon {
+  border-radius: 50%;
+  float: left;
+  padding: 30px;
+}
+.numbers {
+  background-image: url(assets/numbers-background.png);
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.numbers .txt-numbers {
+  color: white;
+  padding: 1%;
+}
+.check-in {
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+.check-in .form-control {
+  border-radius: .0rem;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 60%;
+}
+.check-in .containe {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.check-in .containe input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.check-in .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px solid;
+}
+.check-in .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.check-in .containe input:checked ~ .checkmark:after {
+  display: block;
+}
+.check-in .containe .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 6px;
+  height: 14px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+.check-in h2 {
+  margin-left: 23%;
+}
+.btn-secondary {
+  background-color: #b7abb1;
+  color: black;
+  margin-top: 1%;
+  margin-left: 16%;
+  margin-bottom: 8%;
+  width: 13%;
+}
+.popular-articles-1 {
+  margin-top: 15%;
+  margin-left: 15%;
+}
+.fly-icon {
+  padding: 5%;
+}
+h4 {
+  margin-left: 15%;
+}
+footer {
+  background-image: url(assets/footer-background.png);
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+footer .footer-txt {
+  color: white;
+}
+footer .footer-icon {
+  margin: 1%;
+}
