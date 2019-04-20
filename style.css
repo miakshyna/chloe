@@ -170,15 +170,21 @@ header-1 ul.header-menu li {
   padding: 5%;
 }
 h4 {
-  padding: 4%;
+  padding-top: 10%;
+  padding-bottom: 1%;
 }
 .article .eye {
   padding: 4%;
 }
-.article p {
+.article .p1 {
   text-indent: 4%;
   margin: 0%;
   width: 75%;
+}
+.article .author {
+  margin-left: 53%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 footer {
   background-image: url(assets/footer-background.png);
