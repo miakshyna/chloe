@@ -151,6 +151,8 @@ header-1 ul.header-menu li {
 }
 .check-in h2 {
   margin-left: 23%;
+  margin-top: 4%;
+  padding: 2%;
 }
 .btn-secondary {
   background-color: #b7abb1;
@@ -168,7 +170,15 @@ header-1 ul.header-menu li {
   padding: 5%;
 }
 h4 {
-  margin-left: 15%;
+  padding: 4%;
+}
+.article .eye {
+  padding: 4%;
+}
+.article p {
+  text-indent: 4%;
+  margin: 0%;
+  width: 75%;
 }
 footer {
   background-image: url(assets/footer-background.png);
