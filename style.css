@@ -1,10 +1,7 @@
 header {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(assets/header-background.png);
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  background-size: auto;
 }
 header a {
   text-decoration: none;
@@ -48,17 +45,12 @@ header-1 .row-header {
 }
 header-1 ul.header-menu {
   margin: 0;
-  /* Обнуляем значение отступов */
   padding: 15px;
-  /* Значение полей */
 }
 header-1 ul.header-menu li {
   display: inline;
-  /* Отображать как строчный элемент */
   margin-right: 38px;
-  /* Отступ слева */
   padding: 10px;
-  /* Поля вокруг текста */
   font-size: 16px;
   color: white;
 }
@@ -89,13 +81,6 @@ header-1 ul.header-menu li {
 .numbers .txt-numbers {
   color: white;
   padding: 1%;
-}
-.check-in {
-  /* Hide the browser's default checkbox */
-  /* Create a custom checkbox */
-  /* Create the checkmark/indicator (hidden when not checked) */
-  /* Show the checkmark when checked */
-  /* Style the checkmark/indicator */
 }
 .check-in .form-control {
   border-radius: .0rem;
@@ -173,6 +158,71 @@ h4 {
   padding-top: 10%;
   padding-bottom: 1%;
 }
+.profile .girl-icon {
+  padding: 5%;
+  width: 70%;
+}
+.profile .name {
+  margin-left: -40%;
+  margin-top: 8%;
+  font-size: 2em;
+  border: 1px solid;
+  text-indent: 2%;
+}
+.profile .form-control {
+  border-radius: .0rem;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 60%;
+}
+.profile .containe {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: -40%;
+  margin-top: 3%;
+}
+.profile .containe input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.profile .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px solid;
+}
+.profile .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.profile .containe input:checked ~ .checkmark:after {
+  display: block;
+}
+.profile .containe .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 6px;
+  height: 14px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
 .article .eye {
   padding: 4%;
 }
@@ -186,6 +236,9 @@ h4 {
   margin-top: 7%;
   margin-bottom: 7%;
 }
+.next-article {
+  padding: 4%;
+}
 footer {
   background-image: url(assets/footer-background.png);
   -moz-background-size: 100%;
@@ -198,4 +251,31 @@ footer .footer-txt {
 }
 footer .footer-icon {
   margin: 1%;
+}
+@media (max-width: 767.98px) {
+  header {
+    background-image: url(assets/header-background.png);
+    background-size: cover;
+    background-position: -700px 0px;
+  }
+  header ul.header-menu {
+    padding: 15px;
+  }
+  header ul.header-menu li {
+    margin-right: 38px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  header .introduction {
+    padding-bottom: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    float: right;
+  }
+  header .chloe-sanre {
+    margin-top: -180px;
+    margin-left: -190px;
+  }
 }
