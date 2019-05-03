@@ -254,9 +254,9 @@ footer .footer-icon {
 }
 @media (max-width: 767.98px) {
   header {
-    background-image: url(assets/header-background.png);
+    background-image: url(assets/header-background-small.png);
     background-size: cover;
-    background-position: -700px 0px;
+    background-position: 0px 0px;
   }
   header ul.header-menu {
     padding: 15px;
@@ -275,7 +275,47 @@ footer .footer-icon {
     float: right;
   }
   header .chloe-sanre {
-    margin-top: -180px;
-    margin-left: -190px;
+    margin-top: -205px;
+    margin-left: -17px;
+    width: 115%;
+  }
+  .explore {
+    width: 70%;
+  }
+  .search {
+    margin-left: -40px;
+    margin-top: 28px;
+  }
+  .form-control {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  h2 {
+    margin-left: 20%;
+    margin-top: 4%;
+    padding: 2%;
+  }
+  .interests .interests-icon {
+    border-radius: 50%;
+    float: left;
+    padding: 30px;
+  }
+  .interests .column-text {
+    margin-left: 50%;
+  }
+  .interests .h3 {
+    margin-left: 90%;
+  }
+  .numbers {
+    background-image: url(assets/numbers-background.png);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .numbers .txt-numbers {
+    color: white;
+    padding: 1%;
   }
 }
