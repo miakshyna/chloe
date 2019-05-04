@@ -304,8 +304,10 @@ footer .footer-icon {
   .interests .column-text {
     margin-left: 50%;
   }
-  .interests .h3 {
-    margin-left: 90%;
+  .interests .column-name {
+    margin-left: 69%;
+    font-size: 140%;
+    margin-top: 10%;
   }
   .numbers {
     background-image: url(assets/numbers-background.png);
