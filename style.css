@@ -302,15 +302,15 @@ footer .footer-icon {
     padding: 30px;
   }
   .interests .column-text {
-    margin-left: 50%;
+    margin-left: 69%;
   }
   .interests .column-name {
     margin-left: 69%;
     font-size: 140%;
-    margin-top: 10%;
+    margin-top: 12%;
   }
   .numbers {
-    background-image: url(assets/numbers-background.png);
+    background-image: url(assets/numbers-background-small.png);
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -319,5 +319,13 @@ footer .footer-icon {
   .numbers .txt-numbers {
     color: white;
     padding: 1%;
+  }
+  .popular-articles .headline-interests {
+    margin-top: 3%;
+  }
+  .popular-articles .fly-icon {
+    width: 70%;
+    height: 70%;
+    margin-right: 14%;
   }
 }
