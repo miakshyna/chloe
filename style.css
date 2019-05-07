@@ -540,4 +540,59 @@ footer .footer-icon {
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
   }
+  .article h2 {
+    margin-top: 2%;
+    font-size: 21px;
+    margin-left: 8%;
+  }
+  .article .eye {
+    padding: 4%;
+    margin-top: 80%;
+  }
+  .article .poem {
+    margin-top: -400%;
+    width: 200%;
+    margin-left: -100%;
+  }
+  .article .Alessia {
+    margin-top: 6%;
+    margin-left: 50%;
+  }
+  .article h4 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  .article .girl-icon {
+    margin-left: -40%;
+    margin-top: 20%;
+  }
+  .article .girl-with-blueberries-icon {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .article .p1 {
+    text-indent: 4%;
+    margin: 0%;
+    width: 75%;
+  }
+  .article .p2 {
+    text-indent: 4%;
+    margin: 0%;
+    width: 75%;
+    margin-top: 2%;
+  }
+  .article .author {
+    margin-left: 55%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 17px;
+  }
+  .next-article .next-back-icon {
+    padding: 1%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .next-article .p-after-next {
+    margin-left: 6%;
+  }
 }
