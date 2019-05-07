@@ -56,6 +56,8 @@ header-1 {
     }
 }
 
+
+
 .explore {
     width: 70%;
 }
@@ -63,18 +65,25 @@ header-1 {
     margin-left: -40px; 
     margin-top: 28px;
 }
-
 .form-control {
         margin-top: 30px;
         margin-left: 40px;
         margin-right: 40px;
     }
 
+
 .interests {
     .interests-icon {
         border-radius: 50%;
         float: left;
         padding: 30px;
+    }
+    .column-text {
+        margin-left: 30%;
+    }
+    .column-name {
+        margin-left: 30%;
+        margin-top: 9%;
     }
 }
 
@@ -109,8 +118,6 @@ header-1 {
         -ms-user-select: none;
         user-select: none;
       }
-      
-      
       .containe input {
         position: absolute;
         opacity: 0;
@@ -118,8 +125,6 @@ header-1 {
         height: 0;
         width: 0;
       }
-      
-      
       .checkmark {
         position: absolute;
         top: 0;
@@ -127,22 +132,15 @@ header-1 {
         height: 16px;
         width: 16px;
         border: 1px solid;
-        
       }
-      
-      
       .checkmark:after {
         content: "";
         position: absolute;
         display: none;
       }
-      
-     
       .containe input:checked ~ .checkmark:after {
         display: block;
       }
-      
-      
       .containe .checkmark:after {
         left: 4px;
         top: 0px;
@@ -154,14 +152,11 @@ header-1 {
         -ms-transform: rotate(40deg);
         transform: rotate(40deg);
       }
-    
     h2 {
         margin-left: 23%;
         margin-top: 4%;
         padding: 2%;
     }
-}
-
     .btn-secondary {
         background-color: #b7abb1;
         color: black;
@@ -170,20 +165,37 @@ header-1 {
         margin-bottom: 8%;
         width: 13%;
     }
+}
 
-    .popular-articles-1 {
-        margin-top: 15%; 
-        margin-left: 15%; 
+
+
+
+.popular-articles {
+    .headline-interests {
+        margin-top: 3%;
     }
     .fly-icon {
-        padding: 5%;
+    margin-right: 14%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     }
-
-
-h4 {
-    padding-top: 10%;
-    padding-bottom: 1%;
+    h4 {
+        margin-top: 9%;
+    }
+    .popular-articles-1 {
+        margin-left: 36%;
+        width: 90%; 
+        font-size: 1.2em;
+        margin-top: 11%;
+        margin-left: 0%;
+    }
+    .next-icon {
+        margin-top: 290%;
+        margin-left: -380%;
+    }
 }
+
+
 
 .profile {
     .girl-icon {
@@ -236,8 +248,7 @@ h4 {
         content: "";
         position: absolute;
         display: none;
-    }
-          
+    }  
     .containe input:checked ~ .checkmark:after {
         display: block;
         } 
@@ -255,6 +266,7 @@ h4 {
 }
 
 
+
 .article {
     .eye {
         padding: 4%;
@@ -270,11 +282,12 @@ h4 {
         margin-bottom: 7%;
     }
 }
-
 .next-article {
     padding: 4%;
 }
     
+
+
 footer {
     background-image: url(assets/footer-background.png);
     -moz-background-size: 100%; 
@@ -298,26 +311,26 @@ footer {
         background-position: 0px 0px;
         ul.header-menu {
             padding: 15px;
-            }
-            ul.header-menu li {
+        }
+        ul.header-menu li {
             margin-right: 38px; 
             padding: 10px;
             font-size: 16px;
-            }
-            .introduction {
-                padding-bottom: 150px;
-                padding-top: 40px;
-                padding-left: 10px;
-                padding-right: 10px;
-                font-size: 0.8em; 
-                float: right;   
-            }
-            .chloe-sanre {
-                margin-top: -205px;
-                margin-left: -17px;
-                width: 115%;
-            }
         }
+        .introduction {
+            padding-bottom: 150px;
+            padding-top: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 0.8em; 
+            float: right;   
+        }
+        .chloe-sanre {
+            margin-top: -205px;
+            margin-left: -17px;
+            width: 115%;
+        }
+    }
     .explore {
         width: 70%;
     }
@@ -356,19 +369,19 @@ footer {
         -webkit-background-size: 100%; 
         -o-background-size: 100%; 
         background-size: 100%;
-    .txt-numbers {
-        color: white;
-        padding: 1%;
-    }
+        .txt-numbers {
+            color: white;
+            padding: 1%;
+        }
     }
     .popular-articles {
         .headline-interests {
             margin-top: 3%;
         }
         .fly-icon {
-           width: 70%;
-           height: 70%;
-           margin-right: 14%;
+        width: 70%;
+        height: 70%;
+        margin-right: 14%;
         }
         h4 {
             margin-left: 36%;
@@ -393,9 +406,9 @@ footer {
         background-size: cover;
         .footer-txt {
             color: white;
-        }
+        }    
         .footer-icon {
-           margin: 2%;
+        margin: 2%;
         }
     }
-    }
+}

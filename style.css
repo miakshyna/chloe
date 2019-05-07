@@ -71,6 +71,13 @@ header-1 ul.header-menu li {
   float: left;
   padding: 30px;
 }
+.interests .column-text {
+  margin-left: 30%;
+}
+.interests .column-name {
+  margin-left: 30%;
+  margin-top: 9%;
+}
 .numbers {
   background-image: url(assets/numbers-background.png);
   -moz-background-size: 100%;
@@ -139,7 +146,7 @@ header-1 ul.header-menu li {
   margin-top: 4%;
   padding: 2%;
 }
-.btn-secondary {
+.check-in .btn-secondary {
   background-color: #b7abb1;
   color: black;
   margin-top: 1%;
@@ -147,16 +154,27 @@ header-1 ul.header-menu li {
   margin-bottom: 8%;
   width: 13%;
 }
-.popular-articles-1 {
-  margin-top: 15%;
-  margin-left: 15%;
+.popular-articles .headline-interests {
+  margin-top: 3%;
 }
-.fly-icon {
-  padding: 5%;
+.popular-articles .fly-icon {
+  margin-right: 14%;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
-h4 {
-  padding-top: 10%;
-  padding-bottom: 1%;
+.popular-articles h4 {
+  margin-top: 9%;
+}
+.popular-articles .popular-articles-1 {
+  margin-left: 36%;
+  width: 90%;
+  font-size: 1.2em;
+  margin-top: 11%;
+  margin-left: 0%;
+}
+.popular-articles .next-icon {
+  margin-top: 290%;
+  margin-left: -380%;
 }
 .profile .girl-icon {
   padding: 5%;
