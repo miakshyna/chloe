@@ -317,13 +317,13 @@ footer .footer-icon {
   .interests .interests-icon {
     border-radius: 50%;
     float: left;
-    padding: 30px;
+    padding: 22px;
   }
   .interests .column-text {
-    margin-left: 69%;
+    margin-left: 64%;
   }
   .interests .column-name {
-    margin-left: 69%;
+    margin-left: 64%;
     font-size: 140%;
     margin-top: 12%;
   }
@@ -347,15 +347,17 @@ footer .footer-icon {
     margin-right: 14%;
   }
   .popular-articles h4 {
-    margin-left: 36%;
-    font-size: 1.2em;
-  }
-  .popular-articles .popular-articles-1 {
-    margin-left: 36%;
+    margin-left: 35%;
+    font-size: 1.3em;
     width: 90%;
   }
+  .popular-articles .popular-articles-1 {
+    margin-left: 19%;
+    width: 140%;
+    font-size: 1.1em;
+  }
   .popular-articles .next-icon {
-    margin-top: 290%;
+    margin-top: 283%;
     margin-left: -130%;
     margin-bottom: 20%;
   }
