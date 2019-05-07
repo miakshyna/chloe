@@ -221,7 +221,7 @@ header-1 ul.header-menu li {
   height: 16px;
   width: 16px;
   border: 1px solid;
-  margin-top: 16%;
+  margin-top: 0.6%;
 }
 .profile .checkmark:after {
   content: "";
@@ -269,7 +269,7 @@ footer .footer-txt {
   color: white;
 }
 footer .footer-icon {
-  margin: 1%;
+  margin: 1.1%;
 }
 @media (max-width: 767.98px) {
   header {
@@ -374,7 +374,7 @@ footer .footer-icon {
     color: white;
   }
   footer .footer-icon {
-    margin: 2%;
+    margin: 1%;
   }
   .check-in .form-control {
     border-radius: .0rem;
@@ -438,8 +438,75 @@ footer .footer-icon {
     background-color: #b7abb1;
     color: black;
     margin-top: 1%;
-    margin-left: 29%;
+    margin-left: 28%;
     margin-bottom: 8%;
     width: 39%;
+  }
+  .profile .girl-icon {
+    padding: 9%;
+    width: 100%;
+    margin-left: -16%;
+  }
+  .profile .name {
+    margin-left: -40%;
+    margin-top: 15%;
+    font-size: 1em;
+    border: 1px solid;
+    text-indent: 2%;
+  }
+  .profile .form-control {
+    border-radius: .0rem;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 60%;
+  }
+  .profile .containe {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: -40%;
+    margin-top: 3%;
+  }
+  .profile .containe input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .profile .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 1px solid;
+    margin-top: 5%;
+  }
+  .profile .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .profile .containe input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .profile .containe .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 6px;
+    height: 14px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
   }
 }
