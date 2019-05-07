@@ -33,15 +33,12 @@ header {
 
 header-1 {
     font-family: Arial, Helvetica, sans-serif;
-    -moz-background-size: 100%; 
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%;
     a {
         text-decoration: none;
     } 
     .row-header {
         background-image: url(assets/check-in-header.png);
+        background-size: cover;
     }
     ul.header-menu {
     margin: 0; 
@@ -132,6 +129,7 @@ header-1 {
         height: 16px;
         width: 16px;
         border: 1px solid;
+        margin-top: 0.3%;
       }
       .checkmark:after {
         content: "";
@@ -164,6 +162,8 @@ header-1 {
         margin-left: 16%;
         margin-bottom: 8%;
         width: 13%;
+        border-color: #b7abb1;
+        border-radius: .0rem;
     }
 }
 
@@ -243,6 +243,8 @@ header-1 {
         height: 16px;
         width: 16px;
         border: 1px solid;
+        margin-top: 16%;
+        
     }
     .checkmark:after {
         content: "";
@@ -413,4 +415,76 @@ footer {
         margin: 2%;
         }
     }
+
+
+    .check-in {
+        .form-control {
+            border-radius: .0rem;
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 95%;
+        }
+        .containe {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 14px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .containe input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 15px;
+            width: 15px;
+            border: 1px solid;
+            margin-top: 1%;
+        }
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        .containe input:checked ~ .checkmark:after {
+            display: block;
+        }
+        .containe .checkmark:after {
+            left: 4px;
+            top: 0px;
+            width: 6px;
+            height: 14px;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(40deg);
+            -ms-transform: rotate(40deg);
+            transform: rotate(40deg);
+        }
+        h2 {
+            margin-left: 23%;
+            margin-top: 4%;
+            padding: 2%;
+        }
+        .btn-secondary {
+            background-color: #b7abb1;
+            color: black;
+            margin-top: 1%;
+            margin-left: 29%;
+            margin-bottom: 8%;
+            width: 39%;
+        }
+    }
+
+
 }

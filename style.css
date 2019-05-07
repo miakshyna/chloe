@@ -32,16 +32,13 @@ header .chloe-sanre {
 }
 header-1 {
   font-family: Arial, Helvetica, sans-serif;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
 }
 header-1 a {
   text-decoration: none;
 }
 header-1 .row-header {
   background-image: url(assets/check-in-header.png);
+  background-size: cover;
 }
 header-1 ul.header-menu {
   margin: 0;
@@ -121,6 +118,7 @@ header-1 ul.header-menu li {
   height: 16px;
   width: 16px;
   border: 1px solid;
+  margin-top: 0.3%;
 }
 .check-in .checkmark:after {
   content: "";
@@ -153,6 +151,8 @@ header-1 ul.header-menu li {
   margin-left: 16%;
   margin-bottom: 8%;
   width: 13%;
+  border-color: #b7abb1;
+  border-radius: .0rem;
 }
 .popular-articles .headline-interests {
   margin-top: 3%;
@@ -221,6 +221,7 @@ header-1 ul.header-menu li {
   height: 16px;
   width: 16px;
   border: 1px solid;
+  margin-top: 16%;
 }
 .profile .checkmark:after {
   content: "";
@@ -374,5 +375,71 @@ footer .footer-icon {
   }
   footer .footer-icon {
     margin: 2%;
+  }
+  .check-in .form-control {
+    border-radius: .0rem;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 95%;
+  }
+  .check-in .containe {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .check-in .containe input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .check-in .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 1px solid;
+    margin-top: 1%;
+  }
+  .check-in .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .check-in .containe input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .check-in .containe .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 6px;
+    height: 14px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+  .check-in h2 {
+    margin-left: 23%;
+    margin-top: 4%;
+    padding: 2%;
+  }
+  .check-in .btn-secondary {
+    background-color: #b7abb1;
+    color: black;
+    margin-top: 1%;
+    margin-left: 29%;
+    margin-bottom: 8%;
+    width: 39%;
   }
 }
