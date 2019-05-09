@@ -566,12 +566,18 @@ footer .footer-icon {
     width: 100%;
   }
   .article h4 {
-    margin-top: 10%;
-    margin-bottom: 2%;
+    margin-top: 14%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+  }
+  .article .h4-2 {
+    margin-top: 240%;
+    width: 140%;
+    margin-left: 4%;
   }
   .article .girl-icon {
-    margin-left: -40%;
-    margin-top: 20%;
+    margin-left: -230%;
+    margin-top: -750%;
   }
   .article .girl-with-blueberries-icon {
     width: 80%;
@@ -580,13 +586,20 @@ footer .footer-icon {
   .article .p1 {
     text-indent: 4%;
     margin: 0%;
-    width: 75%;
+    width: 95%;
+    margin-left: 4%;
   }
   .article .p2 {
     text-indent: 4%;
     margin: 0%;
     width: 75%;
     margin-top: 2%;
+  }
+  .article .p3 {
+    text-indent: 4%;
+    margin: 0%;
+    width: 150%;
+    margin-left: 4%;
   }
   .article .author {
     margin-left: 55%;
