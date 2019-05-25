@@ -175,6 +175,7 @@ header-1 ul.header-menu li {
 .popular-articles .next-icon {
   margin-top: 290%;
   margin-left: -380%;
+  position: relative;
 }
 .profile .girl-icon2 {
   padding: 5%;
