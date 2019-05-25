@@ -176,7 +176,7 @@ header-1 ul.header-menu li {
   margin-top: 290%;
   margin-left: -380%;
 }
-.profile .girl-icon {
+.profile .girl-icon2 {
   padding: 5%;
   width: 70%;
 }
@@ -253,9 +253,9 @@ header-1 ul.header-menu li {
   margin-top: 10%;
   margin-bottom: 2%;
 }
-.article .girl-icon {
-  margin-left: -40%;
-  margin-top: 20%;
+.article .girl-icon1 {
+  margin-left: 0%;
+  margin-top: 10%;
 }
 .article .girl-with-blueberries-icon {
   width: 80%;
@@ -473,7 +473,7 @@ footer .footer-icon {
     margin-bottom: 8%;
     width: 39%;
   }
-  .profile .girl-icon {
+  .profile .girl-icon2 {
     padding: 9%;
     width: 100%;
     margin-left: -16%;
